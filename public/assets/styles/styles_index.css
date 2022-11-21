@@ -175,3 +175,22 @@ nav a:hover{
     display: flex;
     justify-content: center;
 }
+
+.noticias .conte-noticias form .campo{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+.noticias .conte-noticias form .btn-sub{
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0px 20px 20px 0px;
+    background: lawngreen;
+    color: white;
+    cursor: pointer;
+    outline: 0px;
+}
