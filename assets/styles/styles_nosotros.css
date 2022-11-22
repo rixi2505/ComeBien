@@ -30,3 +30,37 @@ nav a{
 nav a:hover{
     color: #00B050;
 }
+
+.cards{
+    display: flex ;
+    background-color: #CBFFA5;
+
+}
+.tajeta{
+
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #20be09;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.tajeta:hover{
+    box-shadow: 5px 5px 20px lawngreen;
+    transform: translateY(-3%);
+}
+.tajeta img{
+    height: 180px;
+    width: 100%;
+    image-resolution: normal ;
+    text-align: center;
+
+}
+.cards .tajeta .contenido{
+    padding: 15px;
+    text-align: justify;
+    color: white;
+}
+
